@@ -1,0 +1,221 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #0d0c5c;
+}
+
+.block {
+    display: block;
+    background-color: lightblue;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.inline {
+    display: inline;
+    background-color: lightgreen;
+    padding: 5px;
+}
+
+.image{
+    float: right;
+    width: 200px;
+    height: 300px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+
+.contacts-link{
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #021b08;
+}
+
+.normalize-text{
+    margin-left: 40px;
+}
+
+.list-style-type{
+    list-style-type: circle;
+}
+
+.flex-box {
+    display: flex;
+    background-color: rgb(157, 105, 224);
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.inline-display{
+    display: inline;
+    background-color: aqua;
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.block-display{
+    display: block;
+    background-color: rgb(36, 139, 58);
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.box-sizing {
+    box-sizing: border-box;
+    width: 200px;
+    padding: 20px;
+    border: 5px solid rgb(176, 223, 6);
+    margin-bottom: 30px;
+}
+
+.box-sizing2{
+    box-sizing: content-box;
+    width: 300px;
+    padding: 20px;
+    border: 5px solid rgb(223, 6, 6);
+}
+
+.float-right{
+    float: right;
+    color: rgb(16, 16, 156);
+    margin-right: 100px;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+
+.float-left {
+    float: left;
+    width: 150px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+.clear {
+    clear: both;
+    padding-top: 40px;
+}
+
+.overflow-box {
+    width: 200px;
+    height: 100px;
+    overflow: auto;
+    border: 1px solid black;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.overflow-box2 {
+    width: 400px;
+    height: 100px;
+    overflow: hidden;
+    border: 1px solid black;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.overflow-box3{
+    width: 300px;
+    height: 100px;
+    overflow: scroll;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.static{
+    position: static;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(41, 136, 199);
+    margin-bottom: 20px;
+}
+
+.relative{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(15, 18, 226);
+}
+
+.absolute{
+    position: absolute;
+    margin-left: 500px;
+    margin-bottom: 5000px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(19, 155, 30);
+    z-index: 4;
+}
+
+.text-absolute{
+    margin-top: 150px;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(209, 23, 23);
+    z-index: 3;
+    margin-bottom: 30px;
+}
+
+.fixed-box {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    background-color: yellow;
+    padding: 5px;
+}
+
+.sticky-box {
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    background-color: rgb(107, 204, 51);
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.fixed-box2 {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(29, 113, 182);
+    padding: 5px;
+}
